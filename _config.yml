@@ -1,8 +1,8 @@
 # Site wide configuration
 
-title: Site Title
+title: nanoGALLERY
 locale: en_US
-description: Describe your website here.
+description: image gallery simplified
 logo: site-logo.png
 search: true
 url: http://localhost:4000
@@ -33,13 +33,13 @@ exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.
 
 # Site owner
 owner:
-  name: Your Name
+  name: Christophe Brisbois
   avatar: bio-photo.jpg
-  email: you@email.com
-  disqus-shortname:
+  email: nano@brisbois.fr
+  disqus-shortname: Kris__B
   twitter: #username
   facebook: #username
-  github: #username
+  github: Kris-B
   stackexchange: #http://stackoverflow.com/users/123456/username
   linkedin: #username
   instagram: #username
