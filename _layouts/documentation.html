@@ -59,6 +59,7 @@
 
         // add to TOC
         if( !$tocParents[level-1].is( "ul" ) ) {
+          console.dir($tocParents[level-1]);
           var $ul=$('<ul class="side-nav"></ul>').appendTo($tocParents[level-1]);
           $tocParents[level-1]=$ul;
         }
