@@ -1,9 +1,7 @@
 ---
 layout: documentation
-title: Theme Setup
-description: Options and parameters
+title: Options and Parameters
 modified: 2014-07-31T13:23:02.362000-04:00
-excerpt: "Instructions on how to install and customize the Jekyll theme Minimal Mistakes."
 ---
 
 {% include toc.html %}
