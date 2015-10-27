@@ -7,24 +7,22 @@ search_omit: true
 TEST9
 
 <script>
-$(document).ready(function () {
+  $(document).ready(function () {
 
 
-var s='<h1 style="text-align:center;color:#fff;font-family:Oswald;">nano<span style="color:#6e6;font-family:Oswald;">GALLERY</span>&nbsp;';
-s+='<a href="#download" style="font-size:0.6rem;bottom:25px;left:-10px;border-radius:4px;padding:0.1rem 0.4rem 0.15rem;" class="radius button tiny">';
-s+='v5.9.0 / 26 Oct 2015';
-s+='</a>';
-s+='</h1>';
-s+='<h3 style="text-align:center;font-size:1.3rem;"><span style="color:#fff;">image gallery simplified</span></h3>';
-s+='<h2>&nbsp;</h2><br>';
-s+='<p style="text-align: center;color:#fff;font-size:1.2rem;">';
-s+='nanoGALLERY is a touch enabled and fully responsive image gallery with justified, cascading and grid layout.<br>';
-s+='It supports self hosted images and pulling in Flickr, Picasa and Google+ photo albums.';
-s+='</p><br><br><br>';
+    var s='<h1 style="text-align:center;color:#fff;font-family:Oswald;">nano<span style="color:#6e6;font-family:Oswald;">GALLERY</span>&nbsp;';
+    s+='<a href="#download" style="font-size:0.6rem;bottom:25px;left:-10px;border-radius:4px;padding:0.1rem 0.4rem 0.15rem;" class="radius button tiny">';
+    s+='v5.9.0 / 26 Oct 2015';
+    s+='</a>';
+    s+='</h1>';
+    s+='<h3 style="text-align:center;font-size:1.3rem;"><span style="color:#fff;">image gallery simplified</span></h3>';
+    s+='<h2>&nbsp;</h2><br>';
+    s+='<p style="text-align: center;color:#fff;font-size:1.2rem;">';
+    s+='nanoGALLERY is a touch enabled and fully responsive image gallery with justified, cascading and grid layout.<br>';
+    s+='It supports self hosted images and pulling in Flickr, Picasa and Google+ photo albums.';
+    s+='</p><br><br><br>';
 
-
-
-  jQuery("#nanoGalleryHead").before('s')
+    jQuery("#nanoGalleryHead").before('s')
 
         jQuery("#nanoGalleryHead").css('visibility','visible').nanoGallery({
           //userID:'34858669@N00',kind:'flickr',
