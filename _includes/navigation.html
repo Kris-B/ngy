@@ -16,7 +16,6 @@
 {% include browser-upgrade.html %}
 
 {% if page.image.feature %}<header class="masthead">
-  <div id="nanoGalleryHead" style="visibility:hidden;"></div>
 	{% if site.logo != null %}
 		<div class="wrap">
 			<a href="{{ site.url }}/" class="site-logo" rel="home" title="{{ site.title }}"><img src="{{ site.url }}/images/{{ site.logo }}" width="200" height="200" alt="{{ site.title }} logo" class="animated fadeInDown"></a>
@@ -24,13 +23,13 @@
 	{% endif %}
 </header><!-- /.masthead -->
 {% else %}<header class="masthead">
-  <div id="nanoGalleryHead" style="visibility:hidden;"></div>
 	<div class="wrap">
       {% if site.logo != null %}
   		<a href="{{ site.url }}/" class="site-logo" rel="home" title="{{ site.title }}"><img src="{{ site.url }}/images/{{ site.logo }}" width="200" height="200" alt="{{ site.title }} logo" class="animated fadeInDown"></a>
       {% endif %}
       <h1 class="site-title animated fadeIn"><a href="{{ site.url }}/">{{ site.title }}</a></h1>
 		<h2 class="site-description animated fadeIn" itemprop="description">{{ site.description }}</h2>
+    <div id="nanoGalleryHead" style="visibility:hidden;"></div>
 	</div>
 </header><!-- /.masthead -->{% endif %}
 
