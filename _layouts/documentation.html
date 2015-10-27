@@ -10,31 +10,25 @@
 
 </head>
 
-DOCU
-
 <body id="page">
 
 {% include navigation.html %}
 
 <div id="main" role="main">
-  <article class="hentry">
+  <article class="entry">
+    {% if page.image.feature %}<img src="{{ site.url }}/images/{{ page.image.feature }}" class="entry-feature-image" alt="{{ page.title }}" {% if site.logo == null %}style="margin-top:0;"{% endif %}>{% if page.image.credit %}<p class="image-credit">Photo Credit: <a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a></p>{% endif %}{% endif %}
     <div class="entry-wrapper">
       <header class="entry-header">
-        {% if page.image.feature %}<img src="{{ site.url }}/images/{{ page.image.feature }}" class="entry-feature-image" alt="{{ page.title }}" {% if site.logo == null %}style="margin-top:0;"{% endif %}>{% if page.image.credit %}<p class="image-credit">Photo Credit: <a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a></p>{% endif %}{% endif %}
-        <div class="entry-wrapper">
-          <header class="entry-header">
-            <h1 class="entry-title">{% if page.headline %}{{ page.headline }}{% else %}{{ page.title }}{% endif %}</h1>
-          </header>
-          <div class="entry-content">
-            {{ content }}
-          </div><!-- /.entry-content -->
-        </div><!-- /.entry-wrapper -->
+        <h1 class="entry-title">{% if page.headline %}{{ page.headline }}{% else %}{{ page.title }}{% endif %}</h1>
       </header>
-      <footer class="entry-meta">
-        {:toc}
-        {% include toc.html %}
-      </footer>
-    </div>
+      <div class="entry-content">
+        {{ content }}
+        
+        <div id="#nanoprez_toc">#nanoprez_toc</div>
+        
+        
+      </div><!-- /.entry-content -->
+    </div><!-- /.entry-wrapper -->
   </article>
 </div><!-- /#main -->
 
@@ -45,5 +39,37 @@ DOCU
 </div><!-- /.footer-wrapper -->
 
 {% include scripts.html %}
+
+<script>
+  
+      var $toc=$('#nanoprez_toc');
+      $toc.empty();
+      var $tocParents=[$toc];
+      
+      $content.find('h2, h3, h4').each(function() {
+        var $el = $(this);
+        var level = parseInt(this.nodeName[1]);
+        
+        // add ID
+        var curID=$el.attr('id');
+        //locationHash = locationHash.slice(0,level-1);
+        //locationHash[level-1] = $el.text();
+        //var slug = URLify(locationHash.join('-'));
+        //$el.attr('id', slug);
+
+        // add to TOC
+        if( !$tocParents[level-1].is( "ul" ) ) {
+          var $ul=$('<ul class="side-nav"></ul>').appendTo($tocParents[level-1]);
+          $tocParents[level-1]=$ul;
+        }
+        var $cur=$('<li><a href="#'+curID+'" id="link-'+curID+'">' + $el.text() + '</a></li>').appendTo($tocParents[level-1]);
+        $tocParents = $tocParents.slice(0,level);
+        $tocParents[level] = $cur;
+
+      });
+  
+  
+</script>
+
 </body>
 </html>
