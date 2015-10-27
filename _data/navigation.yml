@@ -4,7 +4,7 @@
   url: /
 
 - title: Examples
-  url: /examples/
+  url: /examples/index.html
 
 - title: First steps
   url: /first_steps/
@@ -18,18 +18,6 @@
 
 - title: About
   url: /about/
-
-- title: Articles
-  url: /articles/
-
-- title: Blog
-  url: /blog/
-
-- title: Theme Setup
-  url: /theme-setup/
-
-- title: Made Mistakes
-  url: http://mademistakes.com
 
 - title: Search
   url: /search/
