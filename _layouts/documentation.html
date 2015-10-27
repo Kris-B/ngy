@@ -64,7 +64,7 @@
         }
         var $cur=$('<li><a href="#'+curID+'" id="link-'+curID+'">' + $el.text() + '</a></li>').appendTo($tocParents[level-1]);
   console.dir(curID);
-  console.dir($tocParents[level-1]);
+  console.dir(level);
         $tocParents = $tocParents.slice(0,level);
         $tocParents[level] = $cur;
 
