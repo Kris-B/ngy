@@ -24,7 +24,7 @@
       <div class="entry-content">
         {{ content }}
         
-        <div id="#nanoprez_toc">#nanoprez_toc</div>
+        <div id="#nanoprez_toc"></div>
         
         
       </div><!-- /.entry-content -->
@@ -65,6 +65,8 @@
           $tocParents[level-1]=$ul;
         }
         var $cur=$('<li><a href="#'+curID+'" id="link-'+curID+'">' + $el.text() + '</a></li>').appendTo($tocParents[level-1]);
+  console.dir($cur);
+  console.dir($tocParents[level-1]);
         $tocParents = $tocParents.slice(0,level);
         $tocParents[level] = $cur;
 
