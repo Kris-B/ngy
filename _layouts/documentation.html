@@ -46,7 +46,7 @@
       $toc.empty();
       var $tocParents=[$toc];
       
-      $('.entry-content').find('h2, h3, h4').each(function() {
+      $('.entry-content').find('h1, h2, h3').each(function() {
         var $el = $(this);
         var level = parseInt(this.nodeName[1]);
         
