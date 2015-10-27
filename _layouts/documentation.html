@@ -48,7 +48,9 @@
       
       $('.entry-content').find('h1, h2, h3').each(function() {
         var $el = $(this);
+        console.dir($el);
         var level = parseInt(this.nodeName[1]);
+        console.log(level);
         
         // add ID
         var curID=$el.attr('id');
