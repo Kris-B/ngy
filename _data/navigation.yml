@@ -3,6 +3,19 @@
 - title: Home
   url: /
 
+- title: Examples
+  url: /example/
+
+- title: First steps
+  url: /first_steps/
+
+- title: Options
+  url: /options/
+
+- title: API and Callbacks
+  url: /api_callbacks/
+
+
 - title: About
   url: /about/
 
