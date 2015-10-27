@@ -10,11 +10,14 @@ excerpt: "Instructions on how to install and customize the Jekyll theme Minimal 
 ## Options
 bla bla
 ### level2
+
 ### level 3
 
 bla
 
 ## azerty
+
 ### aaaa
+
 ### bbbb
 
