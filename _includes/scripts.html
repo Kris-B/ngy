@@ -24,5 +24,10 @@
     ga.src = 'https://stats.g.doubleclick.net/dc.js';
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
+  
+  $(document).ready(function () {
+    var navigation = $('#nav-main').okayNav();
+  });
+
 </script>
 {% endif %}
