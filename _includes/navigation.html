@@ -16,6 +16,16 @@
 	</nav>
 </div><!-- /.navigation-wrapper -->
 
+
+{% include browser-upgrade.html %}
+
+{% if page.image.feature %}<header class="masthead">
+	{% if site.logo != null %}
+		<div class="wrap">
+			<a href="{{ site.url }}/" class="site-logo" rel="home" title="{{ site.title }}"><img src="{{ site.url }}/images/{{ site.logo }}" width="200" height="200" alt="{{ site.title }} logo" class="animated fadeInDown"></a>
+		</div>
+	{% endif %}
+
 <div role="navigation" id="nav-main" class="okayNav">
 	    <ul>
 	   <!--
@@ -32,15 +42,6 @@
 	    </ul>
 </div><!-- /.navigation-wrapper -->
 
-
-{% include browser-upgrade.html %}
-
-{% if page.image.feature %}<header class="masthead">
-	{% if site.logo != null %}
-		<div class="wrap">
-			<a href="{{ site.url }}/" class="site-logo" rel="home" title="{{ site.title }}"><img src="{{ site.url }}/images/{{ site.logo }}" width="200" height="200" alt="{{ site.title }} logo" class="animated fadeInDown"></a>
-		</div>
-	{% endif %}
 </header><!-- /.masthead -->
 {% else %}<header class="masthead">
 	<div class="wrap">
