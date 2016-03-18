@@ -233,7 +233,7 @@ var responsiveNav = (function (window, document) {
         this._onclick(evt);
         break;
       case "load":
-        // this._transitions(evt);
+        this._transitions(evt);
         this._resize(evt);
         break;
       case "resize":
