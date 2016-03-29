@@ -7,7 +7,13 @@
 <script>window.jQuery || document.write('<script src="{{ site.url }}/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
 <script src="{{ site.url }}/assets/js/scripts.min.js"></script>
 
-<script src="{{ site.url }}/assets/js/plugins/jquery.okayNav-min.js"></script>
+
+{% if page.layout == "documentation" %}
+  <script src="{{ site.url }}/assets/js/plugins/jquery.nanotoc.js"></script>
+  alert('ok');
+{% endif %}
+
+
 
 {% if site.owner.google.analytics %}
 <!-- Asynchronous Google Analytics snippet -->
@@ -26,7 +32,7 @@
   })();
   
   $(document).ready(function () {
-    var navigation = $('#nav-main').okayNav();
+    // var navigation = $('#nav-main').okayNav();
   });
 
 </script>
