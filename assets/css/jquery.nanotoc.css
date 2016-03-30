@@ -4,11 +4,6 @@
 /* MAIN CONTAINER                     */
 /**************************************/
 
-/* Documentation */
-#nanoTOC_content {
-  display:inline-block;
-}
-
 /* Sidebar for the table of content */
 #nanoTOC_sidebar {
   display:inline-block;
