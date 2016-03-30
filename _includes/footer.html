@@ -15,3 +15,11 @@
 	{% if site.owner.weibo %}<a href="https://www.weibo.com/u/{{ site.owner.weibo }}/" title="{{ site.owner.name}} on Weibo" target="_blank"><i class="fa fa-weibo fa-2x"></i></a>{% endif %}
   <a href="{{ site.url }}/feed.xml" title="Atom/RSS feed"><i class="fa fa-rss-square fa-2x"></i></a>
 </div><!-- /.social-icons -->
+
+
+{% if page.layout == "documentation" %}
+  $(document).ready(function () {
+    alert('ok');
+    jQuery.nanoToc('#main');
+  });
+{% endif %}
