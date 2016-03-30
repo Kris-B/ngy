@@ -1,5 +1,5 @@
 /**!
- * @preserve nanoTOC v0.5.0
+ * @preserve nanoTOC v0.5.1
  * Javascript - Table Of Content by Christophe Brisbois
  * Sources: https://github.com/Kris-B/nanoTOC
  *
@@ -58,12 +58,18 @@
       "use strict";
       
       var $documentation=$element;
-      $documentation.wrapInner('<div id="nanoTOC_content"></div>');
-      var $content=$documentation.find('#nanoTOC_content');
-      var $sidebar=$('<div id="nanoTOC_sidebar"></div>').appendTo($documentation);
+      $documentation.addClass('nanoTOC_content');
+      // $documentation.wrapInner('<div id="nanoTOC_content"></div>');
+      // var $content=$documentation.find('#nanoTOC_content');
+      // var $sidebar=$('<div id="nanoTOC_sidebar"></div>').appendTo($documentation);
+      // var $toc=$('<div id="nanoTOC_toc"></div>').appendTo($sidebar);
+      var $content=$documentation;  
+      var $sidebar=$('<div id="nanoTOC_sidebar"></div>');
+      $documentation.after($sidebar);
       var $toc=$('<div id="nanoTOC_toc"></div>').appendTo($sidebar);
 
       $content.width(params.widthContent);
+      $content.css('display','inline-block');
 	
       var style='#nanoTOC_toc .nanotocActive { border-left-color:'+params.borderColor+'; }'+'\n';
       var style=style+'#nanoTOC_toc { border-left-color:'+params.borderColor+'; }'+'\n';
