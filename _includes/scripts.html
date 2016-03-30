@@ -8,16 +8,14 @@
 <script src="{{ site.url }}/assets/js/scripts.min.js"></script>
 
 
-// {% if page.layout == "documentation" %}
+{% if page.layout == "documentation" %}
   <script src="{{ site.url }}/assets/js/plugins/jquery.nanotoc.js"></script>
-<script type="text/javascript">
-    alert('ok1');
-  $(document).ready(function () {
-    alert('ok');
-    jQuery.nanoToc('#main');
-  });
-</script>
-// {% endif %}
+  <script type="text/javascript">
+    $(document).ready(function () {
+      jQuery.nanoToc('#main');
+    });
+  </script>
+{% endif %}
 
 
 
