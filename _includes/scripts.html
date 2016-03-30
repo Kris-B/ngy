@@ -10,6 +10,9 @@
 
 {% if page.layout == "documentation" %}
   <script src="{{ site.url }}/assets/js/plugins/jquery.nanotoc.js"></script>
+  $(document).ready(function () {
+    jQuery.nanoToc('#main');
+  });
 {% endif %}
 
 
@@ -30,10 +33,6 @@
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
   
-  $(document).ready(function () {
-    // var navigation = $('#nav-main').okayNav();
-    jQuery.nanoToc('#main');
-  });
 
 </script>
 {% endif %}
