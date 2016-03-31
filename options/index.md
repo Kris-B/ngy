@@ -35,7 +35,7 @@ nanoGALLERY2 customisation options. List of properties accepted by the nanoGalle
 
 ## Image display
 
-## Settings for gallery toolbar / breadcrumb
+## Gallery toolbar
 
 ## Usage specifc setting
 
