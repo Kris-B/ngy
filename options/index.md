@@ -17,10 +17,27 @@ nanoGALLERY2 customisation options. List of properties accepted by the nanoGalle
 | theme | string | 'default' |Name of the theme.<br>Note: the corresponding css-file must also be included in the html file.<br>Possible values: 'default', 'clean', 'light' or your custom one. ||
 | colorScheme | string<br>object | 'none' | Gallery color scheme (breadcrumb and thumbnails).<br>Possible values: 'none', 'dark','darkRed', 'darkGreen', 'darkBlue', 'darkOrange', 'light', 'lightBackground'<br>Custom color schemes are supported. ||
 | RTL | boolean | false | Sets the display direction from Right To Left (RTL). Default is from Left to Right (LTR). ||
+| maxItemsPerLine	| integer |	0	| Maximum number of thumbnails per row.<br> Ignored when thumbnailWidth is 'auto'. 0 = disabled.||
+| paginationDots | bboolean | false | Displays dots for thumbnail pagination instead of page numbers ||
+
+## Thumbnails
+### General settings
+### Advanced sizes
+### Advanced effects
+### Settings for 1st navigation level
+
+## Image display
+
+## Settings for gallery toolbar / breadcrumb
+
+## Usage specifc setting
+### Google Photos / Google+
+### Flickr
+### Inline method
+### API
+### nanoPhotosProvider
 
 
-
-### level 3
 
 bla
 
