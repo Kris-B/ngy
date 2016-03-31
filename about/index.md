@@ -3,7 +3,7 @@ layout: page
 title: About nanoGALLERY2
 excerpt: "The next image gallery for your website."
 ---
-
+  
 nanoGALLERY2 is the new nanoGALLERY ;-)
 
 
