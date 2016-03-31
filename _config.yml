@@ -10,7 +10,7 @@ url: http://brisbois.fr/ngy
 # Jekyll configuration
 
 permalink:   /:categories/:title/
-markdown:    redcarpet
+markdown:    kramdown
 highlighter: rouge
 sass:
   sass_dir: _sass
@@ -25,8 +25,6 @@ kramdown:
   toc_levels: 1..4
   use_coderay: false
 
-redcarpet:
-  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
 
 mathjax: true
 
