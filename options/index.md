@@ -21,9 +21,16 @@ nanoGALLERY2 customisation options. List of properties accepted by the nanoGalle
 | paginationDots | bboolean | false | Displays dots for thumbnail pagination instead of page numbers ||
 
 ## Thumbnails
+
 ### General settings
+
+
 ### Advanced sizes
+
+
 ### Advanced effects
+
+
 ### Settings for 1st navigation level
 
 ## Image display
@@ -31,11 +38,18 @@ nanoGALLERY2 customisation options. List of properties accepted by the nanoGalle
 ## Settings for gallery toolbar / breadcrumb
 
 ## Usage specifc setting
+
+
 ### Google Photos / Google+
+
 ### Flickr
+
 ### Inline method
+
 ### API
+
 ### nanoPhotosProvider
+
 
 
 
