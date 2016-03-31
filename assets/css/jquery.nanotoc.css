@@ -40,6 +40,7 @@
   list-style-type: none;
   padding-left: 0px;
   padding-right: 10px;
+  text-align: left;
 }
 
 #nanoTOC_toc.fixed {
