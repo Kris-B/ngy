@@ -23,9 +23,9 @@ JQUERY is only to be included, if not already present in your page.
 ```
   <body>
     <div id="nanoGallery">
-      <a href="img_01.jpg" data-ngthumb="img_01t.jpg" data-ngdesc="Description1">Title Image1</a>
+      <a href="img_01.jpg" data-ngthumb="img_01t.jpg">Title Image1</a>
       <a href="img_02.jpg" data-ngthumb="img_02ts.jpg" data-ngdesc="Image 2 description">Title Image2</a>
-      <a href="img_03.jpg" data-ngthumb="img_03t.jpg">Title Image3</a>
+      <a href="img_03.jpg" data-ngthumb="img_03t.jpg" data-ngdesc="Description 3">Title Image3</a>
     </div>
     
     <script>
