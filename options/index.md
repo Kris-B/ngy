@@ -43,7 +43,7 @@ nanoGALLERY2 customisation options. List of properties accepted by the nanoGalle
 
 ### Flickr
 
-### Self hotsted
+### Self hotsted:
 
 #### Inline method
 
