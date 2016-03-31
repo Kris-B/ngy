@@ -1,9 +1,9 @@
 ---
 layout: page
-title: About nanoGALLERY2
+title: about nanoGALLERY2
 excerpt: "The next image gallery for your website."
 ---
-  
+  <br>
 nanoGALLERY2 is the new nanoGALLERY ;-)
 
 
