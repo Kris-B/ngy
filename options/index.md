@@ -27,28 +27,26 @@ nanoGALLERY2 customisation options. List of properties accepted by the nanoGalle
 
 ### Advanced sizes
 
-
 ### Advanced effects
-
 
 ### 1st navigation level
 
+
 ## Image display
+
 
 ## Gallery toolbar
 
-## Usage specifc setting
-
+## Data sources
 
 ### Google Photos / Google+
 
 ### Flickr
 
-### Inline method
-
-### API
-
-### nanoPhotosProvider
+### Self hotsted
+#### Inline method
+#### API
+#### nanoPhotosProvider
 
 
 
