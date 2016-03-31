@@ -44,8 +44,11 @@ nanoGALLERY2 customisation options. List of properties accepted by the nanoGalle
 ### Flickr
 
 ### Self hotsted
+
 #### Inline method
+
 #### API
+
 #### nanoPhotosProvider
 
 
