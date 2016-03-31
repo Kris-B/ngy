@@ -31,7 +31,7 @@ nanoGALLERY2 customisation options. List of properties accepted by the nanoGalle
 ### Advanced effects
 
 
-### Settings for 1st navigation level
+### 1st navigation level
 
 ## Image display
 
