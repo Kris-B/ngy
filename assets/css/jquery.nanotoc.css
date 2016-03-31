@@ -43,6 +43,13 @@
   text-align: left;
 }
 
+#nanoTOC_sidebar li {
+  list-style-type: none;
+  padding-left: 0px;
+  text-align: left;
+  margin-bottom: 0px;
+}
+
 #nanoTOC_toc.fixed {
   position: fixed;
   overflow-y: auto;
