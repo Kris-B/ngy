@@ -53,27 +53,3 @@ nanoGALLERY2 customisation options. List of properties accepted by the nanoGalle
 
 
 
-
-bla
-
-| Tables        | Are           | Cool  |
-| ------------- | ------------- | ----- |
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
-
-## azerty
-
-```
-  function nanoTOC() {
-    alert('hello');
-  }
-```
-
-> TEST
-
-
-### aaaa
-
-### bbbb
-
