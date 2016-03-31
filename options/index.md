@@ -9,19 +9,14 @@ modified: 2014-07-31T13:23:02.362000-04:00
 nanoGALLERY2 customisation options. List of properties accepted by the nanoGallery2() method.
 
 ## General settings
-| Property | Version | Type | Default | Description |
-| ----- | ----- | ----- | ----- | ----- |
-| theme | | string | 'default' | Name of the theme.<br>Note: the corresponding css-file must also be included in the html file.<br>Possible values: 'default', 'clean', 'light' or your custom one. |
-| colorScheme | | string<br>object | 'none' | Gallery color scheme (breadcrumb and thumbnails).<br>Possible values: 'none', 'dark','darkRed', 'darkGreen', 'darkBlue', 'darkOrange', 'light', 'lightBackground'<br>Custom color schemes are supported.|
-| RTL | | boolean | false | Sets the display direction from Right To Left (RTL). Default is from Left to Right (LTR).|
 
 -----
 
 | Property | Version | Type | Default | Description |
 | ----- | ----- | ----- | ----- | ----- |
-| theme || string | 'default' |Name of the theme.<br>Note: the corresponding css-file must also be included in the html file.<br>Possible values: 'default', 'clean', 'light' or your custom one.
-| colorScheme || string<br>object | 'none' | Gallery color scheme (breadcrumb and thumbnails).<br>Possible values: 'none', 'dark','darkRed', 'darkGreen', 'darkBlue', 'darkOrange', 'light', 'lightBackground'<br>Custom color schemes are supported.
-| RTL || boolean | false | Sets the display direction from Right To Left (RTL). Default is from Left to Right (LTR).
+| theme || string | 'default' |Name of the theme.<br>Note: the corresponding css-file must also be included in the html file.<br>Possible values: 'default', 'clean', 'light' or your custom one. |
+| colorScheme || string<br>object | 'none' | Gallery color scheme (breadcrumb and thumbnails).<br>Possible values: 'none', 'dark','darkRed', 'darkGreen', 'darkBlue', 'darkOrange', 'light', 'lightBackground'<br>Custom color schemes are supported. |
+| RTL || boolean | false | Sets the display direction from Right To Left (RTL). Default is from Left to Right (LTR). |
 
 
 
