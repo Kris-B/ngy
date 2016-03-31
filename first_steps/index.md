@@ -3,6 +3,7 @@ layout: page
 title: First steps
 ---
 <br>
+
 ### First steps
 
 #### 1. Download the script and include it in your page
