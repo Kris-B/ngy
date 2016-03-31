@@ -22,6 +22,13 @@ bla
 
 ## azerty
 
+```
+  function nanoTOC() {
+    alert('hello');
+  }
+```
+
+
 ### aaaa
 
 ### bbbb
