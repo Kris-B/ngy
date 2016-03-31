@@ -1,7 +1,38 @@
 ---
 layout: page
 title: First steps
-excerpt: "So Simple is a responsive Jekyll theme for your words and images."
-modified: 2014-08-08T19:44:38.564948-04:00
 ---
-First steps
+<br>
+### First steps
+
+#### 1. Download the script and include it in your page
+
+```
+  <head>
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  
+    <link href="css/nanogallery.min.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="jquery.nanogallery.min.js"></script>
+  </head>
+```
+JQUERY is only to be included, if not already present in your page.
+
+#### 2. Setup your HTML and initialize the nanoGALLERY script
+
+```
+  <body>
+    <div id="nanoGallery">
+      <a href="img_01.jpg" data-ngthumb="img_01t.jpg" data-ngdesc="Description1">Title Image1</a>
+      <a href="img_02.jpg" data-ngthumb="img_02ts.jpg" data-ngdesc="Image 2 description">Title Image2</a>
+      <a href="img_03.jpg" data-ngthumb="img_03t.jpg">Title Image3</a>
+    </div>
+    
+    <script>
+      $(document).ready(function () {
+        $("#nanoGallery").nanoGallery({
+          itemsBaseURL:'http://nanogallery.brisbois.fr/demonstration/'
+        });
+      });
+    </script>
+  </body>
+```
