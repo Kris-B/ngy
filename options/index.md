@@ -21,7 +21,7 @@ $(document).ready(function () {
 });
 {% endhighlight %}
 
-List of properties accepted by the nanoGallery2() method.   
+List of properties accepted by the nanoGallery2() method:   
 
 ## General settings
 
