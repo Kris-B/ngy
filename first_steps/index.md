@@ -20,7 +20,7 @@ JQUERY is only to be included, if not already present in your page.
 
 #### 2. Setup your HTML and initialize the nanoGALLERY script
 
-```
+{% highlight javascript %}
   <body>
     <div id="mynanogallery">
       <a href="img_01.jpg" data-ngthumb="img_01t.jpg">Title Image1</a>
@@ -36,4 +36,4 @@ JQUERY is only to be included, if not already present in your page.
       });
     </script>
   </body>
-```
+{% endhighlight %}
