@@ -25,13 +25,14 @@
 </div><!-- /#main -->
 
 
+Select demo:
 {% for link in site.data.demos %}
   {% if link.url contains 'http' %}
       {% assign domain = '' %}
       {% else %}
       {% assign domain = site.url %}
   {% endif %}
-  <li><a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank"{% endif %}>{{ link.title }}</a></li>
+  <li><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
 {% endfor %}
 
 
