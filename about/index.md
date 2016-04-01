@@ -9,7 +9,7 @@ nanoGALLERY2 is the new nanoGALLERY ;-)
 
 ### Features : a summary
 
-- [x] image gallery 
+* image gallery 
 * multiple layouts available
 * super easy to use, even for beginners
 * supports cloud based storage or self hosted images
