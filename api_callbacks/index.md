@@ -30,6 +30,7 @@ function myFnThumbnailOpen(items) {
 | fnThumbnailInit | Fired once after one thumbnail's build. Called for each thumbnail. ||
 | fnThumbnailHoverInit | Fired once to initialize the thumbnail hover effect. Called for each thumbnail. ||
 
+<br><br><br>
 
 # API methods
 How to use API methods:
