@@ -6,6 +6,9 @@ title: First steps
 
 ### First steps
 
+Follow these simple steps to add a gallery to your page.
+  
+  
 #### 1. Get the script
 - from Github : [here](https://github.com/Kris-B/nanoGALLERY/archive/v5.9.1.zip)
 - from npm: ```npm install nanogallery```
