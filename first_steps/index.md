@@ -6,9 +6,11 @@ title: First steps
 
 ### First steps
 
-#### 1. Download the script
+#### 1. Get the script
+- from Github : [here](https://github.com/Kris-B/nanoGALLERY/archive/v5.9.1.zip)
+- from npm: ```npm install nanogallery```
 
-#### 2.Include it in the ```<head>``` of your page
+#### 2. Include it in the ```<head>``` of your page
 
 {% highlight javascript %}
   <head>
@@ -22,7 +24,7 @@ title: First steps
 {% endhighlight %}
 JQUERY is only to be included, if not already present in your page.
 
-#### 2. Setup your HTML and initialize the nanoGALLERY script
+#### 3. Setup your HTML and initialize the nanoGALLERY script
 
 {% highlight javascript %}
   <body>
