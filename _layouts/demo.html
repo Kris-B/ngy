@@ -24,7 +24,17 @@
   </article>
 </div><!-- /#main -->
 
-HELLO DEMO
+
+{% for link in site.data.demos %}
+  {% if link.url contains 'http' %}
+      {% assign domain = '' %}
+      {% else %}
+      {% assign domain = site.url %}
+  {% endif %}
+  <li><a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank"{% endif %}>{{ link.title }}</a></li>
+{% endfor %}
+
+
 
 <div class="footer-wrapper">
   <footer role="contentinfo" class="entry-wrapper">
