@@ -6,7 +6,6 @@ title: Options and Parameters
 # Options
 
 nanoGALLERY2 is highly customizable and fully adjustable to suit your needs, without coding.  
-List of properties accepted by the nanoGallery2() method.  
 
 How to use options:
 {% highlight javascript %}
@@ -21,6 +20,8 @@ $(document).ready(function () {
   });
 });
 {% endhighlight %}
+
+List of properties accepted by the nanoGallery2() method.   
 
 ## General settings
 
