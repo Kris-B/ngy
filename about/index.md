@@ -7,7 +7,7 @@ excerpt: "The next image gallery for your website."
 nanoGALLERY2 is the new nanoGALLERY ;-)
 
 
-### Features
+### Features - the short list 
 
 * image gallery 
 * multiple layouts available
