@@ -4,7 +4,7 @@ title: API and callbacks
 ---
 
 #  Callbacks
-Callbacks and javascript helpers provide a simple mechanism to extend the capabilities of nanoGALLERY2.
+Callbacks and javascript helpers provide a simple mechanism to extend the capabilities of nanoGALLERY2.  
 How to use callbaks:
 {% highlight javascript %}
 $(document).ready(function () {
