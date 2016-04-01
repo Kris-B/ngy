@@ -32,7 +32,7 @@ JQUERY is only to be included, if not already present in your page.
 {% highlight javascript %}
   <body>
     <!-- THE MARKUP -->
-    <div id="mynanogallery">
+    <div id="myNanoGallery">
       <a href="img_01.jpg" data-ngthumb="img_01t.jpg">Title Image1</a>
       <a href="img_02.jpg" data-ngthumb="img_02ts.jpg" data-ngdesc="Image 2 description">Title Image2</a>
       <a href="img_03.jpg" data-ngthumb="img_03t.jpg" data-ngdesc="Description 3">Title Image3</a>
@@ -41,7 +41,7 @@ JQUERY is only to be included, if not already present in your page.
     <!-- CALL THE GALLERY -->
     <script>
       $(document).ready(function () {
-        $("#mynanogallery").nanoGallery({
+        $("#myNanoGallery").nanoGallery({
           itemsBaseURL:'http://nanogallery.brisbois.fr/demonstration/'
         });
       });
