@@ -8,7 +8,7 @@ Callbacks and javascript helpers provide a simple mechanism to extend the capabi
 How to use callbaks:
 {% highlight javascript %}
 $(document).ready(function () {
-  $("#yourNanoGallery").nanoGallery({
+  $("#myNanoGallery").nanoGallery2({
     kind: 'picasa',
     userID: '111186676244625461692',
     fnThumbnailOpen: myFnThumbnailOpen
@@ -35,7 +35,7 @@ function myFnThumbnailOpen(items) {
 # API methods
 How to use API methods:
 {% highlight javascript %}
-  $('#yourNanoGallery').nanoGallery2('method', options);
+  $('#myNanoGallery').nanoGallery2('method', options);
 {% endhighlight %}
 
 | Method | Option(s) | Description | Script<br>Version |
