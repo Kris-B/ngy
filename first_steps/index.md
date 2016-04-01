@@ -8,14 +8,14 @@ title: First steps
 
 #### 1. Download the script and include it in your page
 
-```
+{% highlight javascript %}
   <head>
     <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
   
     <link href="css/nanogallery.min.css" rel="stylesheet" type="text/css">
     <script type="text/javascript" src="jquery.nanogallery.min.js"></script>
   </head>
-```
+{% endhighlight %}
 JQUERY is only to be included, if not already present in your page.
 
 #### 2. Setup your HTML and initialize the nanoGALLERY script
