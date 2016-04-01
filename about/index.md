@@ -9,12 +9,15 @@ nanoGALLERY2 is the new nanoGALLERY ;-)
 
 ### Features
 
-* image gallery
+* image gallery 
+* multiple layouts available
+* super easy to use, even for beginners
 * supports cloud based storage or self hosted images
-* mobile friendly
+* responsive and mobile optimized
 * hover effects
 * multi-level galleries / albums
-* highly customizable
+* highly customizable and fully adjustable to suit your needs, without coding
+* extensive documentation
 * and many more...
 
 
