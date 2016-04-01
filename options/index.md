@@ -5,7 +5,21 @@ title: Options and Parameters
 
 # Options
 
-nanoGALLERY2 customisation options. List of properties accepted by the nanoGallery2() method.
+nanoGALLERY2 customisation options. List of properties accepted by the nanoGallery2() method.  
+
+How to use options:
+{% highlight javascript %}
+$(document).ready(function () {
+  $("#yourNanoGallery").nanoGallery({
+    ...
+    thumbnailHeight: 200,
+    thumbnailWidth: 300,
+    thumbnailAlignment: 'center',
+    galleryEnableKeyboard: false,
+    ...
+  });
+});
+{% endhighlight %}
 
 ## General settings
 
