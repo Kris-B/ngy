@@ -10,7 +10,7 @@ nanoGALLERY2 customisation options. List of properties accepted by the nanoGalle
 How to use options:
 {% highlight javascript %}
 $(document).ready(function () {
-  $("#yourNanoGallery").nanoGallery({
+  $("#myNanoGallery").nanoGallery2({
     ...
     thumbnailHeight: 200,
     thumbnailWidth: 300,
