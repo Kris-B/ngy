@@ -4,7 +4,7 @@ title: nanoGALLERY
 locale: en_US
 description: image gallery for your website.
 logo: site-logo.png
-search: true
+search: false
 url: http://brisbois.fr/ngy
 
 # Jekyll configuration
