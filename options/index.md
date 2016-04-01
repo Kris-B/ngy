@@ -5,7 +5,8 @@ title: Options and Parameters
 
 # Options
 
-nanoGALLERY2 customisation options. List of properties accepted by the nanoGallery2() method.  
+nanoGALLERY2 is highly customizable and fully adjustable to suit your needs, without coding.  
+List of properties accepted by the nanoGallery2() method.  
 
 How to use options:
 {% highlight javascript %}
