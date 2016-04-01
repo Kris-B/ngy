@@ -1,17 +1,34 @@
 ---
 layout: demo
 title: "nanoAGLLERY2 - justified layout"
-modified: 2013-05-31
+modified: 2016-04-01
 excerpt: "Just about everything you'll need to style in the theme: headings, paragraphs, blockquotes, tables, code blocks, and more."
-modified: 2013-05-31
 categories: demos
-tags: [sample-post]
 comments: true
 share: true
 ---
 
-TEST
+To display the gallery with a justified layout, set thumbnailWidth to 'auto' and set a height in pixel to thumbnailHeight.
 
+{% highlight javascript %}
+  $(document).ready(function () {
+    $("#nanoGallery").nanoGallery({
+      
+      thumbnailWidth: 'auto',
+      thumbnailHeight: 250,
+      
+      userID: '111186676244625461692', kind:'picasa',
+      album: '5911347863561293937',
+      colorScheme: 'none',
+      thumbnailHoverEffect: [{ name: 'labelAppear75', duration: 300 }],
+      theme: 'light',
+      thumbnailGutterWidth : 0,
+      thumbnailGutterHeight : 0,
+      i18n: { thumbnailImageDescription: 'View Photo', thumbnailAlbumDescription: 'Open Album' },
+      thumbnailLabel: { display: true, position: 'overImageOnMiddle', align: 'center' }
+    });
+  });
+{% endhighlight %}
 
 <script>
   $(document).ready(function () {
