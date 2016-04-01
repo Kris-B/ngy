@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Blog
-excerpt: "An archive of blog posts sorted by date."
-description : "An archive of blog posts sorted by date."
+title: nanoGALLERY2 news
+//excerpt: "An archive of blog posts sorted by date."
+// description : "An archive of blog posts sorted by date."
 search_omit: true
 ---
 
