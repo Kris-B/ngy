@@ -15,13 +15,13 @@ Callbacks and javascript helpers provide a simple mechanism to extend the capabi
 
 # API methods
 ```
-  Usage: $('#yourElement').nanoGallery('method', options);
+  Usage: $('#yourElement').nanoGallery2('method', options);
 ```
 
 | Method | Option(s) | Description | Script<br>Version |
 | ----- | ----- | ----- | ----- |
-| destroy | | Removes the gallery. <br>Usage: $('#yourElement').nanoGallery('destroy');| |
-| displayItem | itemID | Displays an item (album or image).<br>Usage: $('#yourElement').nanoGallery('displayItem', 'itemID');<br>- to display an album: $('#yourElement').nanoGallery('displayItem', 'albumID')<br>- to display an image: $('#yourElement').nanoGallery('displayItem', 'albumID/imageID')| |
+| destroy | | Removes the gallery. <br>Usage: $('#yourElement').nanoGallery2('destroy');| |
+| displayItem | itemID | Displays an item (album or image).<br>Usage: $('#yourElement').nanoGallery2('displayItem', 'itemID');<br>- to display an album: $('#yourElement').nanoGallery2('displayItem', 'albumID')<br>- to display an image: $('#yourElement').nanoGallery2('displayItem', 'albumID/imageID')| |
 
 
 
