@@ -20,7 +20,7 @@ Source code:
       
       userID: '34858669@N00',
       kind: 'flickr',
-      // photoset: 'none',
+      photoset: 'none',
 
       colorScheme: 'none',
       thumbnailHoverEffect: [{ name: 'labelAppear75', duration: 300 }],
@@ -45,7 +45,8 @@ Source code:
       
       userID: '34858669@N00',
       kind: 'flickr',
-      // photoset: 'none',
+      photoset: 'none',
+      thumbnailHoverEffect: [{ name: 'labelAppear75', duration: 300 }],
 
       viewerDisplayLogo:true,
       photoSorting:'random',
@@ -58,7 +59,7 @@ Source code:
       galleryFullpageButton:true,
       supportIE8: false,
       paginationDots: true,
-      locationHash:true
+      locationHash:false
     });
 
   });  
