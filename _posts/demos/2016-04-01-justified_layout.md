@@ -8,6 +8,8 @@ share: true
 ---
 
 To display the gallery with a justified layout, set thumbnailWidth to 'auto' and set a height in pixel to thumbnailHeight.
+  
+Source code:  
 
 {% highlight javascript %}
   $(document).ready(function () {
