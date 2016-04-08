@@ -47,8 +47,6 @@ Source code:
       kind: 'flickr',
       photoset: 'none',
 
-      thumbnailHoverEffect: [{ name: 'labelAppear75', duration: 300 }],
-    
       viewerDisplayLogo:true,
       photoSorting:'random',
       albumSorting:'random',
@@ -56,18 +54,11 @@ Source code:
       galleryToolbarWidthAligned:false,
       thumbnailLabel:{display:false,align:'center', position:'overImageOnMiddle'},
       thumbnailL1Label:{display:true,align:'center', position:'overImageOnMiddle'},
-      touchAnimationL1: true,
-      touchAnimation:false,
-      i18n:{
-        thumbnailImageDescription:'view photo', thumbnailImageDescription_FR:'afficher photo',
-        thumbnailAlbumDescription:'open gallery', thumbnailAlbumDescription_FR:'ouvrir galerie'
-      },
       viewerToolbar: { standard:'minimizeButton,pageCounter,playPauseButton,linkOriginalButton,label', autoMinimize:5000 },
       galleryFullpageButton:true,
       supportIE8: false,
       paginationDots: true,
-      locationHash:true,
-      breadcrumbAutoHideTopLevel:true
+      locationHash:true
     });
 
   });  
