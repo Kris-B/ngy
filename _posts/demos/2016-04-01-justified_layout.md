@@ -12,7 +12,7 @@ To display the gallery with a justified layout, set thumbnailWidth to 'auto' and
 
 {% highlight javascript %}
   $(document).ready(function () {
-    $("#nanoGallery").nanoGallery({
+    $("#myNanoGallery").nanoGallery({
       
       thumbnailWidth: 'auto',
       thumbnailHeight: 250,
@@ -33,7 +33,7 @@ To display the gallery with a justified layout, set thumbnailWidth to 'auto' and
 <script>
   $(document).ready(function () {
 
-    jQuery("#nanoGalleryHead").css('visibility','visible').nanoGallery({
+    jQuery("#myNanoGallery").css('visibility','visible').nanoGallery({
       //userID:'34858669@N00',kind:'flickr',
       //blackList:'doors|kampuchea|vietnam|thailand|laos|yunnan',
       
