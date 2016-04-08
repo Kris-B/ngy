@@ -15,10 +15,12 @@ Source code:
   $(document).ready(function () {
     $("#myNanoGallery").nanoGallery({
       
-      thumbnailWidth: 150,
-      thumbnailHeight: 100,
+      thumbnailWidth: 120,
+      thumbnailHeight: 120,
       
-      userID: '111186676244625461692', kind:'picasa',
+      userID: '34858669@N00',
+      kind: 'flickr',
+      photoset: 'none',
 
       colorScheme: 'none',
       thumbnailHoverEffect: [{ name: 'labelAppear75', duration: 300 }],
@@ -38,12 +40,13 @@ Source code:
       //userID:'34858669@N00',kind:'flickr',
       //blackList:'doors|kampuchea|vietnam|thailand|laos|yunnan',
       
-      kind: 'picasa',
-      userID:'111186676244625461692',
-      blackList:'profil|scrapbook|Forhomepage',
+      thumbnailWidth: 120,
+      thumbnailHeight: 120,
       
-      thumbnailWidth: 150,
-      thumbnailHeight: 100,
+      userID: '34858669@N00',
+      kind: 'flickr',
+      photoset: 'none',
+
       thumbnailHoverEffect: [{ name: 'labelAppear75', duration: 300 }],
     
       viewerDisplayLogo:true,
