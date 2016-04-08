@@ -63,7 +63,6 @@ Source code:
       thumbnailLabel:{display:false,align:'center', position:'overImageOnMiddle'},
       thumbnailL1Label:{display:true,align:'center', position:'overImageOnMiddle'},
       viewerToolbar: { standard:'minimizeButton,pageCounter,playPauseButton,linkOriginalButton,label', autoMinimize:5000 },
-      galleryFullpageButton:true,
       supportIE8: false,
       paginationDots: true,
       locationHash:false
