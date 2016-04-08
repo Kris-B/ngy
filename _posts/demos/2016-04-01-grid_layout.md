@@ -20,7 +20,7 @@ Source code:
       
       userID: '34858669@N00',
       kind: 'flickr',
-      photoset: 'none',
+      // photoset: 'none',
 
       colorScheme: 'none',
       thumbnailHoverEffect: [{ name: 'labelAppear75', duration: 300 }],
@@ -45,7 +45,7 @@ Source code:
       
       userID: '34858669@N00',
       kind: 'flickr',
-      photoset: 'none',
+      // photoset: 'none',
 
       viewerDisplayLogo:true,
       photoSorting:'random',
