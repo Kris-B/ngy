@@ -15,8 +15,8 @@ Source code:
   $(document).ready(function () {
     $("#myNanoGallery").nanoGallery({
       
-      thumbnailWidth: 75,
-      thumbnailHeight: 50,
+      thumbnailWidth: 150,
+      thumbnailHeight: 100,
       
       userID: '111186676244625461692', kind:'picasa',
 
@@ -42,10 +42,10 @@ Source code:
       userID:'111186676244625461692',
       blackList:'profil|scrapbook|Forhomepage',
       
-      thumbnailWidth: 75,
-      thumbnailHeight: 50,
-      thumbnailHoverEffect:[{'name':'imageScale150', 'duration':700},{'name':'labelAppear75', 'duration':400},{'name':'descriptionAppear', 'duration':1000}],
-      
+      thumbnailWidth: 150,
+      thumbnailHeight: 100,
+      thumbnailHoverEffect: [{ name: 'labelAppear75', duration: 300 }],
+    
       viewerDisplayLogo:true,
       photoSorting:'random',
       albumSorting:'random',
