@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="51.39299mm"
+   height="11.789441mm"
+   viewBox="0 0 182.10115 41.77361"
+   id="svg3543"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="logo2.svg">
+  <title
+     id="title3638">nanogallery2</title>
+  <defs
+     id="defs3545">
+    <clipPath
+       id="clipPath3360"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         style="clip-rule:evenodd"
+         inkscape:connector-curvature="0"
+         id="path3362"
+         d="M -6.104e-6,540 720,540 720,2.4414e-4 -3.052e-6,1.2207e-4" />
+    </clipPath>
+    <clipPath
+       id="clipPath3370"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         style="clip-rule:evenodd"
+         inkscape:connector-curvature="0"
+         id="path3372"
+         d="M -3.815e-6,540 720,540 720,1.8311e-4 -2.289e-6,1.2207e-4" />
+    </clipPath>
+    <clipPath
+       id="clipPath3380"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         style="clip-rule:evenodd"
+         inkscape:connector-curvature="0"
+         id="path3382"
+         d="M -4.578e-6,540 720,540 720,2.4414e-4 -2.289e-6,1.8311e-4" />
+    </clipPath>
+    <clipPath
+       id="clipPath3390"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         style="clip-rule:evenodd"
+         inkscape:connector-curvature="0"
+         id="path3392"
+         d="M -4.578e-6,540 720,540 720,1.8311e-4 -2.289e-6,1.2207e-4" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="248.90772"
+     inkscape:cy="-381.97034"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1858"
+     inkscape:window-height="1057"
+     inkscape:window-x="54"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata3548">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>nanogallery2</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-126.09228,-108.61825)">
+    <g
+       transform="translate(44.714857,-603.33783)"
+       id="g3525">
+      <g
+         transform="matrix(1.25,0,0,-1.25,-1.4561794,800.95664)"
+         id="g3356">
+        <g
+           clip-path="url(#clipPath3360)"
+           id="g3358">
+          <path
+             inkscape:connector-curvature="0"
+             id="path3364"
+             style="fill:none;stroke:#55840c;stroke-width:4.5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             d="m 80.301,67.855 c 1.477,1.476 3.87,1.476 5.346,0 L 96.338,57.164 c 1.477,-1.476 1.477,-3.87 0,-5.346 L 85.647,41.127 c -1.476,-1.476 -3.869,-1.476 -5.346,0 L 69.61,51.818 c -1.476,1.476 -1.476,3.87 0,5.346 l 10.691,10.691 z" />
+        </g>
+      </g>
+      <g
+         transform="matrix(1.25,0,0,-1.25,-1.4561794,800.95664)"
+         id="g3366">
+        <g
+           clip-path="url(#clipPath3370)"
+           id="g3368">
+          <path
+             inkscape:connector-curvature="0"
+             id="path3374"
+             style="fill:none;stroke:#72a623;stroke-width:4.5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             d="m 94.867,67.855 c 1.476,1.476 3.869,1.476 5.343,0 L 110.9,57.164 c 1.48,-1.476 1.48,-3.87 0,-5.346 L 100.21,41.127 c -1.474,-1.476 -3.867,-1.476 -5.343,0 L 84.176,51.818 c -1.477,1.476 -1.477,3.87 0,5.346 l 10.691,10.691 z" />
+        </g>
+      </g>
+      <g
+         transform="matrix(1.25,0,0,-1.25,-1.4561794,800.95664)"
+         id="g3376">
+        <g
+           clip-path="url(#clipPath3380)"
+           id="g3378">
+          <path
+             inkscape:connector-curvature="0"
+             id="path3384"
+             style="fill:none;stroke:#b2e16a;stroke-width:4.5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             d="m 109.3,67.855 c 1.48,1.476 3.87,1.476 5.35,0 l 10.69,-10.691 c 1.47,-1.476 1.47,-3.87 0,-5.346 L 114.65,41.127 c -1.48,-1.476 -3.87,-1.476 -5.35,0 L 98.61,51.818 c -1.477,1.476 -1.477,3.87 0,5.346 l 10.69,10.691 z" />
+        </g>
+      </g>
+      <g
+         transform="matrix(1.25,0,0,-1.25,-1.4561794,800.95664)"
+         id="g3386">
+        <g
+           clip-path="url(#clipPath3390)"
+           id="g3388">
+          <path
+             inkscape:connector-curvature="0"
+             id="path3394"
+             style="fill:none;stroke:#cff19a;stroke-width:4.5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             d="m 124.07,67.855 c 1.47,1.476 3.87,1.476 5.34,0 L 140.1,57.164 c 1.48,-1.476 1.48,-3.87 0,-5.346 L 129.41,41.127 c -1.47,-1.476 -3.87,-1.476 -5.34,0 l -10.69,10.691 c -1.48,1.476 -1.48,3.87 0,5.346 l 10.69,10.691 z" />
+        </g>
+      </g>
+      <text
+         y="737.53162"
+         x="180.74382"
+         id="text3396"
+         style="font-variant:normal;font-weight:normal;font-size:22.52500153px;font-family:'Bauhaus 93';-inkscape-font-specification:Bauhaus;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none">
+        <tspan
+           id="tspan3398"
+           sodipodi:role="line"
+           y="737.53162"
+           x="180.74382 193.74074 206.98544 213.45012 219.98238 232.46123 239.69174 251.76514">gallery2</tspan>
+      </text>
+      <text
+         y="735.43164"
+         x="108.94382"
+         id="text3400"
+         style="font-variant:normal;font-weight:normal;font-size:9.97500038px;font-family:'Bauhaus 93';-inkscape-font-specification:Bauhaus;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none">
+        <tspan
+           id="tspan3402"
+           sodipodi:role="line"
+           y="735.43164"
+           x="108.94382 126.80904 145.12314 163.0582">nano</tspan>
+      </text>
+    </g>
+  </g>
+</svg>
