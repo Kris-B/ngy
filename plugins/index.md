@@ -3,7 +3,19 @@ layout: documentation
 title: plugins
 ---
 
-#  Callbacks
+# Data source plugin
+Add a custom data source to provides images/albums to nanogallery2.
+
+Filename convention : `jquery.nanogaller2.data.[yourDataSource].js`, where [yourDataSource] is the name of your data source.
+
+
+Skeleton:
+{% highlight javascript %}
+
+{% endhighlight %}
+
+
+
 Callbacks and javascript helpers provide a simple mechanism to extend the capabilities of nanoGALLERY2.  
 How to use callbaks:
 {% highlight javascript %}
