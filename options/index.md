@@ -51,7 +51,7 @@ List of properties accepted by the nanoGallery2() method:
 | thumbnailSelectable | boolean | false | Thumbnails can be selectable (check-box) ||
   
   
-## Depreciated nanoGALLERY1 options  
+### Depreciated nanoGALLERY1 options  
 
 | Property | Comment |
 | ----- | ----- |
