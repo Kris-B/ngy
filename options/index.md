@@ -39,6 +39,30 @@ List of properties accepted by the nanoGallery2() method:
 | galleryRenderStep | integer | 2 | Number of lines to add when the user clicks the `more` button. ||
 | galleryDisplayMode | string | 'fullContent' | Gallery display mode: `fullContent`, `pagination`, `moreButton`. ||
 | galleryPaginationMode | string | 'rectangles' | What is displayed on the bottom of the gallery when pagination is enabled: `dots`, `rectangles`, `numbers`. ||
+| thumbnailForNavigation | boolean | true | Adds a thumbnail to navigate to parent album. ||
+| thumbnailBorderVertical | integer | 2 | Width of the top and bottom borders ||
+| thumbnailBorderHorizontal | integer | 2 | Width of the left and right borders ||
+| thumbnailFeaturedKeyword | string | '*featured' | Keyword to set the feature status of a thumbnail. The keyword is checked in the title and the descirption.   ||
+| thumbnailToolbarImage | object | null | For an image's thumbnail: icons to display in the 4 toolbars (top-left, top-right, bottom-left, bottom-right).<br>Possible icons: 'counter', 'share', 'featured', 'select'.<br>Example: `{ topLeft: 'select', topRight : 'share,featured' }  ||
+| thumbnailToolbarAlbum | integer |null | For an albums's thumbnail: icons to display in the 4 toolbars. See `thumbnailToolbarImage` for details. ||
+| thumbnailDisplayTransition | string | 'slideUp' | Transition used to display each thumbnail.<br>Possible values: 'none', 'fadeIn', 'slideUp', 'slideDown', 'scaleUp', 'scaleDown' ||
+| thumbnailDisplayTransitionDuration | integer | 400 | Thumbnail display transition duration in ms. ||
+| thumbnailResizeTransition | boolean | true | On page resize: tranisition to re-position the thumbnails. ||
+| thumbnailSelectable | boolean | false | Thumbnails can be selectable (check-box) ||
+  
+  
+## Depreciated nanoGALLERY1 options 
+
+| Property | Comment |
+| ----- | ----- |
+| thumbnailLazyLoad ||
+| thumbnailLazyLoadTreshold ||
+| itemsSelectable | Replaced by `thumbnailSelectable` |
+| keepSelection ||
+| showCheckboxes ||
+| checkboxStyle ||
+| selectMode ||
+
 
 
 
